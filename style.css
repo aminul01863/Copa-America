@@ -1,0 +1,164 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3% 0;
+    background-color: #2D25A0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    margin-right: 36px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2D25A0;
+}
+
+.banner-img img {
+    width: 556.01px;
+    height: 438px;
+}
+
+.text-name {
+    font-size: 64px;
+    line-height: 80px;
+    color: #fff;
+}
+
+.btn-color {
+    color: #fff;
+    background: #E02C6D;
+    left: 156px;
+    top: 464px;
+    text-decoration: none;
+    padding: 10px 24px;
+    border: 1ps solid red;
+    border-radius: 5px;
+
+}
+
+.all-player {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.player {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+}
+
+.players {
+    width: 320px;
+    height: 474px;
+
+}
+
+.player-img img {
+    width: 278px;
+    height: 256px;
+    justify-content: center;
+}
+
+.match-details {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.match-player {
+    width: 75%;
+    display: grid;
+    align-items: center;
+    margin-top: 160px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 165px;
+    grid-gap: 35px;
+}
+
+.match-img img {
+    width: 567px;
+    height: 427px;
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+
+}
+
+.logo img {
+    width: 483.87px;
+    height: 110px;
+}
+
+.footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.imag-icon {
+    text-align: center;
+}
+
+.imag-icon img {
+    width: 32px;
+    height: 32px;
+}
+
+.imag-icon img:hover {
+    background-color: rgb(226, 14, 145)
+}
+
+.copyright {
+    text-align: center;
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .header {
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center
+    }
+
+    .player {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .banner-img img {
+        width: 329px;
+        height: 259.17px;
+        margin-bottom: 100px;
+        left: 344px;
+        top: 374px;
+
+    }
+
+    .match-player {
+        justify-content: center;
+        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .logo img {
+        width: 200px;
+        height: 50px;
+    }
+}
